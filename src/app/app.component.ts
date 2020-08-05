@@ -8,6 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todoApp';
+  user = 'H.Mert';
+  items = [
+    {description: "Kahvaltı", action: "No"},
+    {description: "Sinema", action: "No"},
+    {description: "Spor", action: "No"},
+    {description: "Ders Çalışma ", action: "No"}
+  ];
 }
 //app.component.ts'e neden ihtiyacımız var?.. misal yukarıda bir title tanımladık, yada misal burada veri tabanından bilgileri almak için gerekli kodlar burada olabilir...misal buraya gelecek olan bir ürün listesi olabilir.
 //..Bu listeyi html'de kullanmak istersek  '{{ }}' şeklinde çağırmış olacağız... 
